@@ -1,0 +1,79 @@
+
+.formulario{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.tituloFormulario{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.dato{
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.dato input{
+
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nombreInput{
+
+    font-weight: bold;
+}
+
+.datoSeleccionar{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{
+
+    padding: 5px;
+    text-decoration: none;
+    background-color: #03264C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.boton a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.botonesFormulario{
+
+    margin-top: 30px;
+}
+
+main{
+
+    margin-bottom:5%;
+}
+
+@media only screen and (mIN-width: 1140px) {
+
+    .formulario{
+
+        width: 50%;
+        margin-left: 25%;
+    }
+}
